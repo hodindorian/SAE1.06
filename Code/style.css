@@ -1,0 +1,106 @@
+body {
+	background-color: white;
+
+}
+ 
+
+h1 {
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	font-size: 150px;
+	text-align: center;
+
+}
+
+h2 {
+	border: 30px black outset;
+}
+
+nav {
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	width: 100%;
+	margin: 0px auto 50px auto;
+	position: sticky;
+	top: 0px;
+	background: linear-gradient(to right, #333, #333 5%, #eee 60%);
+  	border-radius: 30px;
+  	text-decoration: none;
+}
+
+
+nav ul {
+	list-style-type: none;
+	text-decoration: none;
+	
+}
+
+nav li {
+	float: left;
+	width: 33%;
+	text-align: center;
+
+	
+}
+
+nav ul::after{
+	content: "";
+	clear: both;
+	display: table;
+
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	border-bottom: 10px solid transparent;
+}
+h3 {
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	border: 5px black solid;
+	font-size: 50px;
+	text-align: center;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+div {
+
+	margin-right: 5%;
+	margin-left: 5%;
+}
+h5 {
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	font-size: 30px;
+	text-align: center;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+footer {
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	text-align: center;
+}
+h10 {
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	font-size: 10px;
+}
+
+h4{
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+	font-size: 25px;
+	text-align: left;
+}
+.div1{
+	border: 5px black solid;
+}
+th{
+	text-align: left;
+	width: 50%;
+}
+td{
+	width: 50%;
+}
+table{
+	width: 90%;
+}
+.txt{
+	margin-left: 20px;
+}
